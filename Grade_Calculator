@@ -1,0 +1,31 @@
+def main(name, course, age, prelims, midterms, finals, grade):
+
+    Average = (float(prelims) + float(midterms) + float(finals))/3
+    Averages = round(Average, 2)
+# Shown above is how to execute the average of the grades by using float
+
+    Happy_Face = ('\U0001F600')
+    Laughing_Face = ('\U0001F606')
+    Sad_Face = ("\U0001F62D")
+# Shown above are the emojis depending on the grades
+
+    if Average > 70:
+        reaction = Happy_Face
+    elif Average == 70:
+        reaction = Laughing_Face
+    else:
+        reaction = Sad_Face
+# Shown above is using if else statement
+
+    print(("Name: "+ name)+("Course: "+ course) + ("Age: "+ age) + ("\nPrelim Grade: "+ prelims) + ("\nMidterm Grade: " + midterms) +
+         ("\nFinal Grade: "+ finals) + ("\nFinal Average Grade: "+ str(Averages)) + ("\nReaction: "+ reaction) +
+         (('\nHere are your 2nd Year 1st Sem Grade Results!')))
+
+main(input("Name:"),
+    input("Course:"),
+    input("Age:"),
+    input("Prelims grade:"),
+    input("Midterms grade:"),
+    input("Finals grade:"),     
+    
+    print('grade' * 70))
