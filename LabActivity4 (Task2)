@@ -39,7 +39,7 @@ print('The inner product of vectors:', inner3)
 print('..........................................................')
 
 vectorG = [1,5,10,11,12,13]
-vectorH = [(1,2,4,-6,8,-10)]
+vectorH = [1,2,4,-6,8,-10]
 inner4 = []
 
 print('Vector G: ', vectorG)
