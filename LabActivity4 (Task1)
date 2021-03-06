@@ -1,0 +1,84 @@
+#Task1
+vectorA = [(1,5,10,11,12,13)]
+VectorA = []
+
+for values in vectorA:
+    for value in values:
+        square1 = value **2
+        VectorA.append(square1)
+
+#1ST VECTOR
+print('The given values are:', vectorA)
+print('The square of every number in vector1:',VectorA)
+print('The square root:', sum(VectorA)**(1/2))
+print('..........................................................')
+
+vectorB = [(1,4,8,12,16,20)]
+VectorB = []
+
+#2ND VECTOR
+for values in vectorB:
+    for value in values:
+        square2 = value **2
+        VectorB.append(square2)
+
+print('The given values are:', vectorB)
+print('The square of every number in vector2:',VectorB)
+print('The square root:', sum(VectorB)**(1/2))
+print('...........................................................')
+
+vectorC = [(1,2,4,-6,8,-10)]
+VectorC = []
+
+#3RD VECTOR
+for values in vectorC:
+    for value in values:
+        square3 = value **2
+        VectorC.append(square3)
+
+print('The given values are:', vectorC)
+print('The square of every number in vector3:',VectorC)
+print('The square root:', sum(VectorC)**(1/2))
+print('...........................................................')
+
+vectorD = [(1,3,6,9,18,21)]
+VectorD = []
+
+#4TH VECTOR
+for values in vectorD:
+    for value in values:
+        square4 = value **2
+        VectorD.append(square4)
+
+print('The given values are:', vectorD)
+print('The square of every number in vector4:',VectorD)
+print('The square root:', sum(VectorD)**(1/2))
+print('...........................................................')
+
+#5TH VECTOR
+vectorE = [(3,6,-9,12,15,18)]
+VectorE = []
+
+for values in vectorE:
+    for value in values:
+        square5 = value **2
+        VectorE.append(square3)
+
+print('The given values are:', vectorE)
+print('The square of every number in vector5:',VectorE)
+print('The square root:', sum(VectorE)**(1/2))
+print('...........................................................')
+
+#6TH VECTOR
+vectorF = [(5,10,15,20,25,30)]
+VectorF = []
+
+for values in vectorF:
+    for value in values:
+        square6 = value **2
+        VectorF.append(square6)
+
+print('The given values are:', vectorF)
+print('The square of every number in vector6:',VectorF)
+print('The square root:', sum(VectorF)**(1/2))
+print('...........................................................')
