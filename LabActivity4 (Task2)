@@ -1,0 +1,65 @@
+#Task2
+vectorA = [1,5,10,11,12,13]
+vectorB = [1,4,8,12,16,20]
+inner1 = []
+
+print('Vector A: ', vectorA)
+print('Vector B: ', vectorB)
+for i in range(len(vectorA)):
+    sum1 = vectorA[i] * vectorB[i]
+    print(vectorA[i], '*', vectorB[i], '=', sum1)
+    inner1.append(sum1)
+print('The inner product of vectors:', inner1)
+print('..........................................................')
+
+vectorC = [1,2,4,-6,8,-10]
+vectorD = [1,3,6,9,18,21]
+inner2 = []
+
+print('Vector C: ', vectorC)
+print('Vector D: ', vectorD)
+for i in range(len(vectorC)):
+    sum2 = vectorC[i] * vectorD[i]
+    print(vectorC[i], '*', vectorD[i], '=', sum2)
+    inner2.append(sum2)
+print('The inner product of vectors:', inner2)
+print('..........................................................')
+
+vectorE = [3,6,-9,12,15,18]
+vectorF = [5,10,15,20,25,30]
+inner3 = []
+
+print('Vector E: ', vectorE)
+print('Vector F: ', vectorF)
+for i in range(len(vectorE)):
+    sum3 = vectorE[i] * vectorF[i]
+    print(vectorE[i], '*', vectorF[i], '=', sum3)
+    inner3.append(sum3)
+print('The inner product of vectors:', inner3)
+print('..........................................................')
+
+vectorG = [1,5,10,11,12,13]
+vectorH = [(1,2,4,-6,8,-10)]
+inner4 = []
+
+print('Vector G: ', vectorG)
+print('Vector H: ', vectorH)
+for i in range(len(vectorG)):
+    sum4 = vectorG[i] * vectorH[i]
+    print(vectorG[i], '*', vectorH[i], '=', sum4)
+    inner4.append(sum4)
+print('The inner product of vectors:', inner4)
+print('..........................................................')
+
+vectorI = [3,6,-9,12,15,18]
+vectorJ = [1,3,6,9,18,21]
+inner5 = []
+
+print('Vector I: ', vectorI)
+print('Vector J: ', vectorJ)
+for i in range(len(vectorI)):
+    sum5 = vectorI[i] * vectorJ[i]
+    print(vectorI[i], '*', vectorJ[i], '=', sum5)
+    inner5.append(sum5)
+print('The inner product of vectors:', inner5)
+print('..........................................................')
