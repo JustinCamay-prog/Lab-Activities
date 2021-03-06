@@ -6,9 +6,9 @@ inner1 = []
 print('Vector A: ', vectorA)
 print('Vector B: ', vectorB)
 for i in range(len(vectorA)):
-    sum1 = vectorA[i] * vectorB[i]
-    print(vectorA[i], '*', vectorB[i], '=', sum1)
-    inner1.append(sum1)
+    product1 = vectorA[i] * vectorB[i]
+    print(vectorA[i], '*', vectorB[i], '=', product1)
+    inner1.append(product1)
 print('The inner product of vectors:', inner1)
 print('..........................................................')
 
@@ -19,9 +19,9 @@ inner2 = []
 print('Vector C: ', vectorC)
 print('Vector D: ', vectorD)
 for i in range(len(vectorC)):
-    sum2 = vectorC[i] * vectorD[i]
-    print(vectorC[i], '*', vectorD[i], '=', sum2)
-    inner2.append(sum2)
+    product2 = vectorC[i] * vectorD[i]
+    print(vectorC[i], '*', vectorD[i], '=', product2)
+    inner2.append(product2)
 print('The inner product of vectors:', inner2)
 print('..........................................................')
 
@@ -32,9 +32,9 @@ inner3 = []
 print('Vector E: ', vectorE)
 print('Vector F: ', vectorF)
 for i in range(len(vectorE)):
-    sum3 = vectorE[i] * vectorF[i]
-    print(vectorE[i], '*', vectorF[i], '=', sum3)
-    inner3.append(sum3)
+    product3 = vectorE[i] * vectorF[i]
+    print(vectorE[i], '*', vectorF[i], '=', product3)
+    inner3.append(product3)
 print('The inner product of vectors:', inner3)
 print('..........................................................')
 
@@ -45,9 +45,9 @@ inner4 = []
 print('Vector G: ', vectorG)
 print('Vector H: ', vectorH)
 for i in range(len(vectorG)):
-    sum4 = vectorG[i] * vectorH[i]
-    print(vectorG[i], '*', vectorH[i], '=', sum4)
-    inner4.append(sum4)
+    product4 = vectorG[i] * vectorH[i]
+    print(vectorG[i], '*', vectorH[i], '=', product4)
+    inner4.append(product4)
 print('The inner product of vectors:', inner4)
 print('..........................................................')
 
@@ -58,8 +58,8 @@ inner5 = []
 print('Vector I: ', vectorI)
 print('Vector J: ', vectorJ)
 for i in range(len(vectorI)):
-    sum5 = vectorI[i] * vectorJ[i]
-    print(vectorI[i], '*', vectorJ[i], '=', sum5)
-    inner5.append(sum5)
+    product = vectorI[i] * vectorJ[i]
+    print(vectorI[i], '*', vectorJ[i], '=', product)
+    inner5.append(product)
 print('The inner product of vectors:', inner5)
 print('..........................................................')
