@@ -33,3 +33,4 @@ L = 54
 R = 63
 print(H + L + R)
 
+Google collab https://github.com/JustinCamay-prog/Lab-Activities/blob/01ad8684379f5e22ebae9b3199c8cc03dc5d56c5/Demo_1.ipynb
