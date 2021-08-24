@@ -1,0 +1,35 @@
+x = "enjoying"
+print("Python programming is " + x )
+
+x = 1
+y = 2
+print(x+y)
+
+x = 3
+y = 4
+sum= x+y
+sum
+
+a,b,c=0,-1,5
+c%=2 
+c
+
+x = 3
+y = 5
+compare = y>x
+print(compare)
+
+E = 2
+A = 3
+Compare= E<A
+print(Compare)
+
+A = 4
+B = 2
+print(A + B)
+
+H = 12
+L = 54
+R = 63
+print(H + L + R)
+
